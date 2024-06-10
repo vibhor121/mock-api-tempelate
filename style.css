@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#gallery-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+#search-container {
+    margin-bottom: 20px;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gallery img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+    transition: transform 0.2s;
+}
+
+#gallery img:hover {
+    transform: scale(1.1);
+}
+
+#loading {
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+
+#load-more-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+}
